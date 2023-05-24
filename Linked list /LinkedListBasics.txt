@@ -1,0 +1,16 @@
+1. we never disturb the head pointer , instead use a temp pointer to traverse the linked list 
+2. pointer is a variable that stores the address of another variable 
+2.1. pointer variable is stored in stack memory ie address of nodes are stored in stack memory 
+3. for linked list we use node data structure 
+4. class node{
+    public:
+    int data;
+    node* next; // pointer variable that stores the address of next node 
+} this is self referential structure of class
+5. struct vs class - by default struct has all members public , class has all members private by default
+6. we have declared the blueprint of linked list node structure now we want to create nodes and store values in it 
+7. create an instance of node object / creating node 
+8. node object /instances is created in heap 
+9. creating node syntax- node* n1=new node 
+10. n->data =10;
+11. n->next=NULL;
